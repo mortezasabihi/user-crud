@@ -39,32 +39,12 @@
 </template>
 
 <script>
-import {
-  VNavigationDrawer,
-  VList,
-  VListItem,
-  VListItemIcon,
-  VListItemContent,
-  VBtn,
-  VIcon,
-  VListItemTitle,
-} from "vuetify/lib";
 import { createNamespacedHelpers } from "vuex";
 
 const { mapMutations, mapGetters } = createNamespacedHelpers("ui");
 
 export default {
   name: "Sidebar",
-  components: {
-    VNavigationDrawer,
-    VList,
-    VListItem,
-    VListItemIcon,
-    VListItemContent,
-    VBtn,
-    VIcon,
-    VListItemTitle,
-  },
   data() {
     return {
       items: [

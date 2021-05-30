@@ -1,9 +1,9 @@
 <template>
-  <div>صفحه اصلی</div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: "Home",
+  name: "HomePage",
 };
 </script>

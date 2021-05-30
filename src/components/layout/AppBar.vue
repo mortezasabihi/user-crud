@@ -18,19 +18,12 @@
 </template>
 
 <script>
-import { VAppBar, VBtn, VIcon, VSpacer } from "vuetify/lib";
 import { createNamespacedHelpers } from "vuex";
 
 const { mapMutations, mapGetters } = createNamespacedHelpers("ui");
 
 export default {
   name: "AppBar",
-  components: {
-    VAppBar,
-    VBtn,
-    VIcon,
-    VSpacer,
-  },
   data: () => ({
     items: [
       { title: "پروفایل", icon: "account_circle", to: "/profile" },
